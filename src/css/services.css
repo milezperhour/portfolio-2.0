@@ -1,0 +1,41 @@
+.logoItem {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 16px;
+    text-align: center;
+    width: 33.33%;
+}
+
+.logoItem img {
+    margin-bottom: 0;
+    transition: 1s;
+}
+
+.logoItem span {
+    display: block;
+    color: #333;
+    font: 500 0.8rem 'Roboto';
+}
+
+.services {
+    margin: 56px 16px 0 16px;
+}
+
+.services h4 {
+    color: #aaa;
+}
+
+.services h3, .services h4 {
+    text-align: center;
+}
+
+.techLogos {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+@media (min-width: 1024px) {
+    .logoItem {
+        width: 25%;
+    }
+}

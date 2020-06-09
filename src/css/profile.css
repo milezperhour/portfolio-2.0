@@ -1,0 +1,46 @@
+a.email {
+    color: rgb(112, 179, 243);
+    text-decoration: none;
+}
+
+.content {
+    margin: 40px auto 0 auto;
+    max-width: 1024px;
+    position: relative;
+}
+
+.profile {
+    font-family: 'Roboto', 'Sans-Serif';
+    line-height: normal;
+    margin: 56px 16px 0 16px;
+}
+
+.profile h4 {
+    color: #aaa;
+}
+
+.profile h3, .profile h4 {
+    text-align: center;
+}
+
+.right-content {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .left-content {
+        display: inline-block;
+        max-width: 60%;
+    }
+
+    .right-content {
+        display: inline-block;
+        max-width: 25%;
+        position: absolute;
+        right: 0;
+    }
+
+    .right-content > img {
+        border-radius: 50%;
+    }
+}

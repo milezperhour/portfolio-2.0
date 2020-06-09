@@ -1,0 +1,42 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/architecture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+}
+
+.hero-text h1, h2 {
+    font-family: 'Roboto', 'Sans-Serif'!important;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        height: 70vh;
+    }
+}

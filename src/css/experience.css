@@ -1,0 +1,54 @@
+.education {
+    margin-top: 40px;
+}
+
+.inner-experience {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.experience {
+    background: #f7f7f7;
+    font-family: 'Roboto', 'Sans-Serif';
+    margin: 16px auto;
+    padding: 32px 0;
+}
+
+.experience h3 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.experience h4 {
+    color: #333;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.experience .item span:nth-child(2) {
+    margin-top: 4px;
+}
+
+.experience .item span:nth-child(3) {
+    margin: 4px 0 24px 0;
+}
+
+.experience span {
+    color: #aaa;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .education {
+        margin-top: 0;
+    }
+
+    .jobs, .education {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+    }
+}
